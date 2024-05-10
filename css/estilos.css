@@ -1,0 +1,223 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+body {
+    background: #036;
+    padding: 20px;
+}
+/*Cabezera*/
+
+
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius:  20px 20px 0 0; 
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+27,a0d8ef+100 */
+background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 27%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+
+#logo {
+    width: 200px;
+    float: left;
+    margin-top: 0px;
+
+}
+/*Cabezera*/
+
+#logo img:hover{
+filter: grayscale(100);
+
+}
+
+
+
+
+/*MENU-HORIZONTAL*/
+#menu-h {
+    max-width: 1000px;
+    min-height: 70px;
+    background:#000;
+    margin: 0 auto;
+}
+
+#menu-h ul {
+list-style: none;
+display: flex;
+justify-content: center;
+
+}
+
+
+#menu-h a {
+color: #feffff;
+display: block;
+padding: 20px;
+text-decoration: none;
+background: #000;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+
+
+}
+
+#menu-h a:hover{
+background: #069;
+
+}
+
+
+
+
+#menu-h ul ul {
+display: none;
+position: absolute;
+
+}
+
+
+
+#menu-h ul  li:hover ul {
+    display: block;
+}
+
+
+
+/*MENU-HORIZONTAL*/
+
+
+
+
+#banner {
+    text-align: center;
+    background-position: center;
+min-width: 1000px;
+max-height: 250px;
+background: #036;
+margin: 0 auto;
+}
+
+
+#repuestos{
+    margin-left: 152px;
+}
+    
+
+#contenedor {
+    margin-top: 30%;
+    max-width: 1000px;
+    min-width: 700px;
+    background: #f5f2f2;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Menu vertical */
+#menu-v {
+    margin-top: 50px;
+    width: 300px;
+    min-height: 700px;
+    background: #5a5858;
+    float: left;
+
+}
+
+#menu-v ul {
+list-style: none;
+padding: 10px;
+
+}
+
+
+#menu-v a{
+display: block;
+color: #070707;
+background: #f3f7f3;
+padding: 10px;
+text-decoration: none;
+margin-bottom: 8px;
+border-radius: 5px;
+font-family: Arial;
+font-size: 18px;
+}
+
+
+#menu-v a:hover{
+background: #069;
+}
+
+
+/* Menu vertical */
+
+
+
+/*contenido*/
+
+#contenido {
+    margin-top: 50px;
+width: 700px;
+min-height: 700px;
+background: #f5f2f2;
+float: right;
+padding: 15px;
+box-sizing: border-box;
+}
+
+#contenido h2 {
+text-align: center;
+}
+#contenido h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #036;
+     text-align: center;
+}
+
+.imgcontenido{
+padding:30px;
+}
+#contenido h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #036;
+    text-align: center;
+}
+#contenido h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #036;
+}
+/*contenido*/
+
+/*PIE DE PAGINA*/
+footer {
+    max-width: 1000px;
+    min-height: 200px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+/*PIE DE PAGINA*/
+@keyframes entradalogo {
+    0%{
+        transform: rotateX('angle');
+    }
+}
+@keyframes rotacion {
+    0% {
+        transform: rotate (270deg);
+    }
+}
+
